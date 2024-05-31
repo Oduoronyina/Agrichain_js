@@ -1,0 +1,23 @@
+.createProduct1 {
+  position: relative;
+  font-weight: 700;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  white-space: nowrap;
+}
+.createProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--body-xl-body-xl-600-size);
+  color: var(--gray-scale-white);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 450px) {
+  .createProduct1 {
+    font-size: var(--body-medium-body-medium-500-size);
+  }
+}

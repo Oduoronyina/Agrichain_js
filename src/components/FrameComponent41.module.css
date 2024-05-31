@@ -1,0 +1,463 @@
+.keyFeatures {
+  margin: 0;
+  height: 43px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.keyFeaturesDivider {
+  width: 130px;
+  height: 4px;
+  position: relative;
+  background-color: var(--simorange);
+}
+.frameContainer,
+.keyFeaturesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.keyFeaturesParent {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.frameContainer {
+  width: 207px;
+  padding: var(--padding-54xl-5) 0 0;
+  box-sizing: border-box;
+}
+.featureIconBackground,
+.frameChild {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-81xl);
+}
+.featureIconBackground {
+  left: 42px;
+  box-shadow: -6px -5px 12px #fafbfc inset, 4px 4px 10px #d8d8d8 inset,
+    1px 1px 8px #f4f6f9;
+  background-color: var(--color-whitesmoke-300);
+  width: 150px;
+  height: 150px;
+}
+.frameChild {
+  left: 0;
+  background-color: var(--gray-scale-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.mditruckFastOutlineIcon {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  z-index: 1;
+}
+.rectangleParent {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-scale-white);
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+.featureIconContainer {
+  height: 204px;
+  flex: 1;
+  position: relative;
+}
+.featureIconContainerWrapper {
+  width: 192px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 1140px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  box-shadow: 0 0 25px rgba(151, 151, 151, 0.25);
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-scale-white);
+  display: none;
+}
+.mditruckFastOutlineIcon1 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleGroup {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 25px rgba(151, 151, 151, 0.25);
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+}
+.transparentSupplychain {
+  height: 29px;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aPayAsYouGo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  line-height: 150%;
+  color: var(--text-1);
+  text-align: left;
+}
+.featureColumns,
+.featureTitleColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featureTitleColumn {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.featureColumns {
+  flex: 1;
+  gap: var(--gap-mini);
+  min-width: 247px;
+  max-width: 100%;
+}
+.frameInner {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  box-shadow: 0 0 25px rgba(151, 151, 151, 0.25);
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-scale-white);
+  display: none;
+}
+.bxbxsPlaneTakeOffIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleContainer {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 25px rgba(151, 151, 151, 0.25);
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+}
+.efficiency {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 106px;
+}
+.efficiencyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.searchAndCompare {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  line-height: 150%;
+  color: var(--text-1);
+  text-align: left;
+}
+.featureColumns1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  min-width: 247px;
+  max-width: 100%;
+}
+.wrapperGroup6921Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.833);
+}
+.trustAndAccountability,
+.wrapperGroup6921 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperGroup6921 {
+  width: 60px;
+  height: 60px;
+}
+.trustAndAccountability {
+  margin: 0;
+  height: 29px;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+}
+.ourPackagingSolutions {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  line-height: 150%;
+  color: var(--text-1);
+  text-align: left;
+}
+.featureColumns2,
+.trustAndAccountabilityParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trustAndAccountabilityParent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.featureColumns2 {
+  flex: 1;
+  gap: var(--gap-mini);
+  min-width: 247px;
+  max-width: 100%;
+}
+.featureColumnsParent,
+.forConsumers {
+  color: var(--simblue);
+  text-align: center;
+}
+.featureColumnsParent {
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-56xl);
+  max-width: 100%;
+  font-size: var(--body-xxl-body-xxl-500-size);
+}
+.forConsumers {
+  position: relative;
+  font-size: var(--body-large-body-large-500-size);
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: var(--header1);
+  display: inline-block;
+  min-width: 123px;
+}
+.targetAudienceExtended {
+  cursor: pointer;
+  border: 1px solid var(--simblue);
+  padding: var(--padding-4xl) var(--padding-29xl) var(--padding-4xl)
+    var(--padding-30xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 144px;
+  white-space: nowrap;
+}
+.targetAudienceExtended:hover {
+  background-color: var(--color-limegreen-200);
+  border: 1px solid var(--color-limegreen-100);
+  box-sizing: border-box;
+}
+.forDrivers {
+  position: relative;
+  font-size: var(--body-large-body-large-500-size);
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: var(--header1);
+  color: var(--gray-scale-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 92px;
+}
+.targetAudienceExtended1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl) var(--padding-30xl);
+  background-color: var(--simblue);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.targetAudienceExtended1:hover {
+  background-color: var(--color-limegreen-100);
+}
+.forProcessors {
+  position: relative;
+  font-size: var(--body-large-body-large-500-size);
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: var(--header1);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 121px;
+}
+.targetAudienceExtended2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl) var(--padding-30xl);
+  background-color: var(--simorange);
+  flex: 1;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 144px;
+  white-space: nowrap;
+}
+.targetAudienceExtended2:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.targetAudienceExtendedLinks,
+.targetAudienceExtendedLinksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.targetAudienceExtendedLinks {
+  width: 691px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.targetAudienceExtendedLinksWrapper {
+  width: 1140px;
+  justify-content: center;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+  max-width: 100%;
+  z-index: 3;
+  margin-top: -11px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--black);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 1200px) {
+  .featureColumnsParent {
+    gap: var(--gap-18xl);
+  }
+  .frameParent {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .keyFeatures {
+    font-size: var(--font-size-10xl);
+  }
+  .frameParent {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .featureColumnsParent {
+    gap: var(--gap-lgi);
+  }
+  .frameParent {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .keyFeatures {
+    font-size: var(--font-size-3xl);
+  }
+  .efficiency,
+  .transparentSupplychain,
+  .trustAndAccountability {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

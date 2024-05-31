@@ -1,0 +1,437 @@
+.menuIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashbboard {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 88px;
+  white-space: nowrap;
+}
+.dashboardMenu {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.dashboardMenu,
+.menuIcon,
+.menuIconWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuIcon {
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.menuIconWrapper {
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+}
+.stockholmIconsGeneralSe {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.searchBySales {
+  position: relative;
+  white-space: nowrap;
+}
+.search,
+.searchPlaceholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchPlaceholder {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.search {
+  width: 302px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xs);
+  color: var(--text3);
+}
+.frameChild {
+  width: 46px;
+  height: 46px;
+  position: relative;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.frameItem {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.tigerShroff {
+  text-decoration: none;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.id {
+  font-weight: 500;
+}
+.span {
+  font-weight: 600;
+}
+.id1234567 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--text3);
+  display: inline-block;
+  min-width: 68px;
+  white-space: nowrap;
+}
+.tigerShroffParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.frameDiv,
+.rectangleParent,
+.tigerShroffParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.rectangleParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.frameInner {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.frameContainer {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  width: 307px;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-22);
+}
+.frameParent {
+  align-self: stretch;
+  box-shadow: 0 0 2px #dadada;
+  background-color: var(--gray-scale-white);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-11xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--text-1);
+  font-family: var(--header1);
+}
+.dataComponentRowChild {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: contain;
+  min-height: 50px;
+}
+.dataItemValues,
+.pendingQuotations {
+  position: relative;
+  display: inline-block;
+}
+.pendingQuotations {
+  text-transform: capitalize;
+  font-weight: 500;
+  min-width: 123px;
+}
+.dataItemValues {
+  font-size: var(--body-xl-body-xl-600-size);
+  font-weight: 600;
+  color: var(--text-1);
+  min-width: 12px;
+}
+.dataItemDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.dataComponentRow,
+.dataComponentRows {
+  display: flex;
+  justify-content: flex-start;
+}
+.dataComponentRow {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.dataComponentRows {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xl) var(--padding-14xl) var(--padding-11xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 192px;
+  max-width: 256px;
+}
+.groupIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: cover;
+  min-height: 50px;
+}
+.b,
+.shipments {
+  position: relative;
+  display: inline-block;
+}
+.shipments {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: inherit;
+  min-width: 65px;
+}
+.b {
+  font-size: var(--body-xl-body-xl-600-size);
+  font-weight: 600;
+  color: var(--text-1);
+  min-width: 24px;
+}
+.shipmentsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.dataComponentRows1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 192px;
+  max-width: 256px;
+}
+.frameChild1 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: cover;
+  min-height: 50px;
+}
+.b1,
+.totalWarehouse {
+  position: relative;
+  display: inline-block;
+}
+.totalWarehouse {
+  text-transform: capitalize;
+  font-weight: 500;
+  min-width: 104px;
+}
+.b1 {
+  font-size: var(--body-xl-body-xl-600-size);
+  font-weight: 600;
+  color: var(--text-1);
+  min-width: 35px;
+}
+.totalWarehouseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.dataComponentRows2 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 192px;
+  max-width: 256px;
+}
+.dataComponentLayout,
+.dataComponents {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.dataComponentLayout {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.dataComponents {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.dataComponents,
+.dataContainer,
+.dataVisualization {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dataContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.dataVisualization {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.distributorDashboard,
+.menuAndSearch {
+  display: flex;
+  justify-content: flex-start;
+}
+.menuAndSearch {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+  max-width: calc(100% - 265px);
+  text-align: left;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-22);
+  font-family: var(--header1);
+}
+.distributorDashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  overflow-y: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .searchPlaceholder {
+    display: none;
+  }
+  .search {
+    width: 66px;
+  }
+  .menuAndSearch {
+    max-width: 100%;
+  }
+  .distributorDashboard {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .searchBySales {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tigerShroffParent {
+    display: none;
+  }
+  .frameGroup {
+    gap: var(--gap-6xl);
+  }
+  .b,
+  .b1,
+  .dataItemValues {
+    font-size: var(--body-medium-body-medium-500-size);
+  }
+}

@@ -1,0 +1,121 @@
+.home11Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.groupIcon,
+.home {
+  position: relative;
+  display: none;
+}
+.groupIcon {
+  height: 8.2px;
+  width: 4.1px;
+  object-fit: contain;
+}
+.home {
+  align-self: stretch;
+  width: 48px;
+  line-height: 150%;
+}
+.vectorIcon {
+  height: 8.2px;
+  width: 4.1px;
+  object-fit: contain;
+}
+.home1,
+.vectorIcon,
+.vectorIcon1 {
+  position: relative;
+  display: none;
+}
+.home1 {
+  align-self: stretch;
+  width: 48px;
+  line-height: 150%;
+}
+.vectorIcon1 {
+  height: 8.2px;
+  width: 4.1px;
+  object-fit: contain;
+}
+.home2 {
+  align-self: stretch;
+  width: 48px;
+  line-height: 150%;
+}
+.home2,
+.home3,
+.vectorIcon2 {
+  position: relative;
+  display: none;
+}
+.vectorIcon2 {
+  height: 8.2px;
+  width: 4.1px;
+  object-fit: contain;
+}
+.home3 {
+  align-self: stretch;
+  width: 92px;
+  line-height: 150%;
+}
+.shoppingCartLINKS {
+  width: 4.1px;
+  height: 8.2px;
+  position: relative;
+  object-fit: contain;
+}
+.shoppingCartLINKSWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-9) 0 0;
+}
+.vegetables {
+  position: relative;
+  line-height: 150%;
+  color: var(--branding-success);
+  display: inline-block;
+  min-width: 116px;
+}
+.breadcrumbs,
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.location {
+  gap: var(--gap-xs);
+}
+.breadcrumbs {
+  align-self: stretch;
+  padding: var(--padding-29xl) var(--padding-281xl);
+  background-image: url(/public/breadcrumbs@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--gray-scale-gray-500);
+  font-family: var(--body-small-body-small-400);
+}
+@media screen and (max-width: 1050px) {
+  .breadcrumbs {
+    padding-left: var(--padding-131xl);
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .breadcrumbs {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,219 @@
+.dataCardsChild {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: contain;
+  min-height: 50px;
+}
+.cardData,
+.pendingQuotations {
+  position: relative;
+  display: inline-block;
+}
+.pendingQuotations {
+  text-transform: capitalize;
+  font-weight: 500;
+  min-width: 123px;
+}
+.cardData {
+  font-size: var(--body-xl-body-xl-600-size);
+  font-weight: 600;
+  color: var(--text-1);
+  min-width: 12px;
+}
+.cardValues {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.cardRow,
+.dataCards {
+  display: flex;
+  justify-content: flex-start;
+}
+.dataCards {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.cardRow {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xl) var(--padding-14xl) var(--padding-11xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 192px;
+  max-width: 256px;
+}
+.frameChild {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: contain;
+  min-height: 50px;
+}
+.b,
+.shipments {
+  position: relative;
+  display: inline-block;
+}
+.shipments {
+  text-transform: capitalize;
+  font-weight: 500;
+  min-width: 65px;
+}
+.b {
+  font-size: var(--body-xl-body-xl-600-size);
+  font-weight: 600;
+  color: var(--text-1);
+  min-width: 24px;
+}
+.shipmentsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.cardRow1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 192px;
+  max-width: 256px;
+}
+.frameItem {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: contain;
+  min-height: 50px;
+}
+.b1,
+.totalWarehouse {
+  position: relative;
+  display: inline-block;
+}
+.totalWarehouse {
+  text-transform: capitalize;
+  font-weight: 500;
+  min-width: 104px;
+}
+.b1 {
+  font-size: var(--body-xl-body-xl-600-size);
+  font-weight: 600;
+  color: var(--text-1);
+  min-width: 35px;
+}
+.frameGroup,
+.totalWarehouseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameGroup {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.cardRow2 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 192px;
+  max-width: 256px;
+}
+.summaryCards,
+.summaryGrid {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.summaryCards {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.summaryGrid {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.summaryContainer,
+.summaryGrid,
+.summaryPanel {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.summaryContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.summaryPanel {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.menuPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: calc(100% - 265px);
+  text-align: left;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-22);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 1025px) {
+  .menuPanel {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .b,
+  .b1,
+  .cardData {
+    font-size: var(--body-medium-body-medium-500-size);
+  }
+}

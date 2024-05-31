@@ -1,0 +1,142 @@
+.summerSale {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 112px;
+}
+.span1 {
+  color: var(--branding-warning);
+}
+.span {
+  font-weight: 600;
+}
+.off {
+  position: relative;
+  font-size: var(--font-size-37xl);
+  line-height: 120%;
+  mix-blend-mode: normal;
+}
+.summerSaleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.freeOnAll,
+.info {
+  align-self: stretch;
+}
+.freeOnAll {
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-600);
+  white-space: pre-wrap;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.shopNow {
+  position: relative;
+  font-size: var(--body-medium-body-medium-500-size);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: var(--body-small-body-small-400);
+  color: var(--gray-scale-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 81px;
+}
+.groupIcon {
+  width: 15px;
+  height: 12px;
+  position: relative;
+}
+.groupWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.button,
+.discountBannar,
+.discountBannarWrapper,
+.groupWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-21xl);
+  background-color: var(--branding-success);
+  border-radius: var(--br-24xl);
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.discountBannar,
+.discountBannarWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.discountBannar {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  flex-direction: column;
+  padding: var(--padding-41xl) var(--padding-32xl) var(--padding-41xl)
+    var(--padding-809xl);
+  gap: var(--gap-9xl);
+  background-image: url(/public/discount-bannar@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.discountBannarWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl) var(--padding-6xs);
+  text-align: left;
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--gray-scale-white);
+  font-family: var(--body-small-body-small-400);
+}
+@media screen and (max-width: 1325px) {
+  .discountBannar {
+    padding-left: var(--padding-395xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .off {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+  .discountBannar {
+    padding-left: var(--padding-188xl);
+    box-sizing: border-box;
+  }
+  .discountBannarWrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .off {
+    font-size: var(--font-size-15xl);
+    line-height: 40px;
+  }
+  .discountBannar {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}

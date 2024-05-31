@@ -1,0 +1,840 @@
+.billingInformation {
+  margin: 0;
+  position: relative;
+  font-size: var(--body-xxl-body-xxl-500-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.filledgmailcom,
+.firstName {
+  position: relative;
+  display: inline-block;
+}
+.firstName {
+  line-height: 150%;
+  min-width: 74px;
+}
+.filledgmailcom {
+  width: 122px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-body-small-400);
+  font-size: var(--body-medium-body-medium-500-size);
+  background-color: transparent;
+  height: 21px;
+  line-height: 130%;
+  color: var(--gray-scale-gray-400);
+  text-align: left;
+  padding: 0;
+}
+.inputField {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.streetAddress {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 102px;
+}
+.firstNameField,
+.firstNameInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.firstNameInput {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.firstNameField {
+  flex: 1;
+  gap: var(--gap-5xs);
+  min-width: 210px;
+}
+.filledgmailcom1,
+.lastName {
+  position: relative;
+  display: inline-block;
+}
+.lastName {
+  line-height: 150%;
+  min-width: 74px;
+}
+.filledgmailcom1 {
+  width: 121px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-body-small-400);
+  font-size: var(--body-medium-body-medium-500-size);
+  background-color: transparent;
+  height: 21px;
+  line-height: 130%;
+  color: var(--gray-scale-gray-400);
+  text-align: left;
+  padding: 0;
+}
+.inputField1,
+.nameLabels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.nameLabels {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 210px;
+}
+.optional {
+  color: var(--gray-scale-gray-500);
+}
+.companyNameOptionalContainer,
+.filledgmailcom2 {
+  position: relative;
+  line-height: 150%;
+}
+.filledgmailcom2 {
+  width: 132px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-body-small-400);
+  font-size: var(--body-medium-body-medium-500-size);
+  background-color: transparent;
+  height: 21px;
+  line-height: 130%;
+  color: var(--gray-scale-gray-400);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.inputField2 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.inputField2,
+.nameInputs,
+.nameLabels1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nameLabels1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 210px;
+}
+.nameInputs {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.email {
+  width: 44px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-body-small-400);
+  font-size: var(--body-medium-body-medium-500-size);
+  background-color: transparent;
+  height: 21px;
+  position: relative;
+  line-height: 130%;
+  color: var(--gray-scale-gray-400);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.inputField3,
+.nameFields {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField3 {
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.nameFields {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.countryRegion {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 119px;
+}
+.select {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+}
+.chevronDownIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.chevronDownWrapper,
+.inputField4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.inputField4 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.email1 {
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  line-height: 150%;
+  color: var(--gray-scale-gray-900);
+  display: inline-block;
+  min-width: 38px;
+}
+.countryDropdown,
+.countryRegionSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.countryDropdown {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--gray-scale-gray-400);
+}
+.countryRegionSelect {
+  flex: 1;
+  gap: var(--gap-5xs);
+  min-width: 182px;
+}
+.selects,
+.states {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 44px;
+}
+.selects {
+  line-height: 21px;
+  min-width: 58px;
+}
+.chevronDownIcon1 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.chevronDownContainer {
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.chevronDownContainer,
+.countryRegionField,
+.inputField5,
+.stateDropdown {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField5 {
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-mini);
+  gap: var(--gap-3xs);
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--gray-scale-gray-400);
+}
+.countryRegionField,
+.stateDropdown {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.countryRegionField {
+  width: 412px;
+  flex-direction: row;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.email2 {
+  width: 113px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-body-small-400);
+  font-size: var(--body-medium-body-medium-500-size);
+  background-color: transparent;
+  height: 21px;
+  position: relative;
+  line-height: 130%;
+  color: var(--gray-scale-gray-400);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.inputField6,
+.locationSelects {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField6 {
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.locationSelects {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.checkbox {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.shipToA {
+  position: relative;
+  line-height: 150%;
+}
+.locationInputs,
+.shippingAddress {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shippingAddress {
+  flex-direction: row;
+  gap: var(--gap-7xs);
+  color: var(--gray-scale-gray-700);
+}
+.locationInputs {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  min-width: 278px;
+  max-width: 100%;
+}
+.zipCode {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 63px;
+}
+.zipCodeField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-86xl);
+}
+.zipCode1 {
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  min-width: 72px;
+}
+.inputField7,
+.zipCodeInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.inputField7 {
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-sm) var(--padding-xs)
+    var(--padding-mini);
+  white-space: nowrap;
+}
+.zipCodeInput {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-5xs) var(--padding-126xl);
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--gray-scale-gray-400);
+}
+.email3,
+.phone {
+  position: relative;
+  display: inline-block;
+}
+.phone {
+  line-height: 150%;
+  min-width: 44px;
+}
+.email3 {
+  width: 118px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-body-small-400);
+  font-size: var(--body-medium-body-medium-500-size);
+  background-color: transparent;
+  height: 21px;
+  line-height: 130%;
+  color: var(--gray-scale-gray-400);
+  text-align: left;
+  padding: 0;
+}
+.inputField8,
+.phoneField {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField8 {
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.phoneField {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.billingInformationParent,
+.contactDetails,
+.locationFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactDetails {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 278px;
+}
+.billingInformationParent,
+.locationFields {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.billingInformationParent {
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.formFieldsChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+}
+.additionalInfo {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.additionalInfo,
+.filledgmailcom3,
+.orderNotesOptional {
+  position: relative;
+  line-height: 150%;
+}
+.filledgmailcom3 {
+  width: 423px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-body-small-400);
+  font-size: var(--body-medium-body-medium-500-size);
+  background-color: transparent;
+  height: 21px;
+  line-height: 130%;
+  color: var(--gray-scale-gray-400);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+}
+.inputField9 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base) var(--padding-44xl);
+  max-width: 100%;
+}
+.orderNotesField {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-body-small-400-size);
+}
+.additionalInfoParent,
+.formFields,
+.orderNotesField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.additionalInfoParent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  font-size: var(--body-xxl-body-xxl-500-size);
+}
+.formFields {
+  flex: 1;
+  gap: var(--gap-12xl-5);
+}
+.orderSummeryChild,
+.orderSummeryItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.orderSummery1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--body-xl-body-xl-600-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.product {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceValue,
+.subtotal1 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 62px;
+}
+.priceValue {
+  font-weight: 500;
+  color: var(--gray-scale-gray-900);
+  min-width: 40px;
+}
+.subtotal {
+  align-self: stretch;
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) 0;
+  gap: var(--gap-xl);
+}
+.free,
+.shipping1 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 65px;
+}
+.free {
+  font-weight: 500;
+  color: var(--gray-scale-gray-900);
+  min-width: 30px;
+}
+.shipping {
+  align-self: stretch;
+  background-color: var(--gray-scale-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) 0;
+  gap: var(--gap-xl);
+}
+.total1,
+.totalAmount {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 43px;
+}
+.totalAmount {
+  line-height: 22px;
+  font-weight: 600;
+  min-width: 52px;
+}
+.totalValue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  font-size: var(--body-large-body-large-500-size);
+  color: var(--gray-scale-gray-900);
+}
+.pricing,
+.summaryContent,
+.total {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.total {
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-xs) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--body-medium-body-medium-500-size);
+}
+.pricing,
+.summaryContent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pricing {
+  gap: var(--gap-11xs);
+  color: var(--gray-scale-gray-700);
+}
+.summaryContent {
+  gap: var(--gap-xs);
+}
+.paymentMethod {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.normal,
+.normal1 {
+  position: absolute;
+  border-radius: var(--br-13xl);
+}
+.normal {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--gray-scale-white);
+  border: 1.5px solid var(--branding-success);
+  box-sizing: border-box;
+}
+.normal1 {
+  height: 60%;
+  width: 60%;
+  top: 20%;
+  right: 20%;
+  bottom: 20%;
+  left: 20%;
+  background-color: var(--branding-success);
+  z-index: 1;
+}
+.radio {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.cashOnDelivery {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 118px;
+}
+.payment,
+.paymentOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paymentOptions {
+  flex-direction: row;
+  gap: var(--gap-7xs);
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--gray-scale-gray-700);
+}
+.payment {
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--body-xl-body-xl-600-size);
+}
+.normal2 {
+  position: relative;
+  font-size: var(--body-medium-body-medium-500-size);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: var(--body-small-body-small-400);
+  color: var(--gray-scale-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 95px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  background-color: var(--branding-success);
+  align-self: stretch;
+  border-radius: var(--br-24xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-limegreen-100);
+}
+.contentWrapper,
+.formContainer,
+.orderSummery {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.orderSummery {
+  width: 424px;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-4xl);
+  gap: var(--gap-5xl);
+  min-width: 424px;
+}
+.contentWrapper,
+.formContainer {
+  flex-direction: row;
+}
+.formContainer {
+  flex: 1;
+  gap: var(--gap-5xl);
+}
+.contentWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--gray-scale-gray-900);
+  font-family: var(--body-small-body-small-400);
+}
+@media screen and (max-width: 1200px) {
+  .orderSummery {
+    flex: 1;
+  }
+  .formContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .locationFields,
+  .nameInputs {
+    flex-wrap: wrap;
+  }
+  .formFields,
+  .orderSummery {
+    min-width: 100%;
+  }
+  .orderSummery {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contentWrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .billingInformation {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .countryRegionField {
+    flex-wrap: wrap;
+  }
+  .zipCodeInput {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .additionalInfo {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .formFields {
+    gap: var(--gap-base);
+  }
+  .orderSummery1 {
+    font-size: var(--body-medium-body-medium-500-size);
+    line-height: 24px;
+  }
+  .shipping,
+  .subtotal,
+  .total {
+    flex-wrap: wrap;
+  }
+  .paymentMethod {
+    font-size: var(--body-medium-body-medium-500-size);
+    line-height: 24px;
+  }
+}

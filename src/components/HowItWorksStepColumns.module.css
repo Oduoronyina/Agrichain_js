@@ -1,0 +1,106 @@
+.b {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 14px;
+}
+.wrapper {
+  height: 50px;
+  width: 50px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-midnightblue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-5) var(--padding-lg);
+  box-sizing: border-box;
+}
+.purchased {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  font-weight: 900;
+  font-family: inherit;
+  color: var(--simorange);
+  text-align: left;
+}
+.howItWorksStepContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.youreCurrentlyRunning {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-1);
+  text-align: left;
+}
+.howItWorksStepCells {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 300px;
+}
+.image3Icon {
+  width: 600.9px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.howItWorksStepColumns,
+.howItWorksStepRows {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.howItWorksStepRows {
+  width: 1150.9px;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.howItWorksStepColumns {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--body-xxl-body-xxl-500-size);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 1050px) {
+  .purchased {
+    font-size: var(--heading-05-heading-05-600-size);
+  }
+  .howItWorksStepCells,
+  .image3Icon {
+    flex: 1;
+  }
+  .howItWorksStepRows {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .b {
+    font-size: var(--font-size-lgi);
+  }
+  .purchased {
+    font-size: var(--body-xxl-body-xxl-500-size);
+  }
+  .howItWorksStepCells {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,259 @@
+.wrapperGroup6922Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.833);
+}
+.wrapperGroup6922 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.safeEfficient {
+  font-weight: 600;
+}
+.ecosystemInAgricultural {
+  font-size: var(--font-size-29xl);
+  color: var(--simorange);
+}
+.solution {
+  font-weight: 600;
+}
+.b {
+  font-family: var(--header1);
+}
+.safeEfficientContainer {
+  align-self: stretch;
+  height: 202px;
+  position: relative;
+  line-height: 150%;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.empoweringRuralDreams {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-medium-body-medium-500-size);
+  line-height: 28px;
+  font-weight: 500;
+  font-family: var(--body-small-body-small-400);
+  white-space: pre-wrap;
+}
+.safeEfficientEcosystemInParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.forFarmers {
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: var(--header1);
+  color: var(--gray-scale-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 77px;
+}
+.targetAudienceLinks {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-20xl);
+  background-color: var(--simblue);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.targetAudienceLinks:hover {
+  background-color: var(--color-limegreen-100);
+}
+.forDistributors {
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: var(--header1);
+  color: var(--gray-scale-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 102px;
+}
+.targetAudienceLinks1,
+.targetAudienceLinksParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.targetAudienceLinks1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-20xl);
+  background-color: var(--simorange);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  justify-content: center;
+  white-space: nowrap;
+}
+.targetAudienceLinks1:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.targetAudienceLinksParent {
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.wrapperGroup7031Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 4px;
+  top: 13px;
+  transform: scale(1.027);
+}
+.wrapperGroup7031 {
+  position: absolute;
+  top: -65px;
+  left: -404px;
+  width: 896px;
+  height: 913px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefitIcons,
+.benefitIcons1 {
+  height: 5px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darksalmon);
+}
+.benefitIcons {
+  align-self: stretch;
+}
+.benefitIcons1 {
+  width: 130px;
+}
+.benefitIcons2 {
+  align-self: stretch;
+}
+.benefitIcons2,
+.benefitIcons3,
+.benefitIcons4 {
+  height: 5px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darksalmon);
+}
+.benefitIcons3 {
+  width: 150px;
+}
+.benefitIcons4 {
+  align-self: stretch;
+}
+.benefitIconsParent {
+  position: absolute;
+  top: 157px;
+  left: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.wrapperGroup7031Parent {
+  width: 492px;
+  height: 848px;
+  position: absolute;
+  margin: 0 !important;
+  top: -364px;
+  left: -150px;
+}
+.frameParent {
+  width: 596px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameWrapper,
+.headerInner,
+.wrapperGroup6922Parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.wrapperGroup6922Parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-81xl);
+}
+.headerInner {
+  width: 1271.5px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-47xl) var(--padding-13xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--gray-scale-white);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 1200px) {
+  .wrapperGroup6922Parent {
+    gap: var(--gap-31xl);
+  }
+  .headerInner {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .safeEfficientContainer {
+    font-size: var(--heading-05-heading-05-600-size);
+    line-height: 58px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent,
+  .wrapperGroup6922Parent {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .safeEfficientContainer {
+    font-size: var(--body-xxl-body-xxl-500-size);
+    line-height: 43px;
+  }
+  .targetAudienceLinksParent {
+    flex-wrap: wrap;
+  }
+}

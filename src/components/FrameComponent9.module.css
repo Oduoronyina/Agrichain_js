@@ -1,0 +1,202 @@
+.menuIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashbboard {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 88px;
+  white-space: nowrap;
+}
+.dashbboardWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.dashbboardWrapper,
+.frameWrapper,
+.menuParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuParent {
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+}
+.stockholmIconsGeneralSe {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.searchBySales {
+  position: relative;
+  white-space: nowrap;
+}
+.searchBySalesProductsAttWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.stockholmIconsGeneralSeParent {
+  width: 302px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xs);
+  color: var(--text3);
+}
+.frameChild {
+  width: 46px;
+  height: 46px;
+  position: relative;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.profileBackgroundIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.tigerShroff {
+  text-decoration: none;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.id {
+  font-weight: 500;
+}
+.span {
+  font-weight: 600;
+}
+.id1234567 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--text3);
+  display: inline-block;
+  min-width: 68px;
+  white-space: nowrap;
+}
+.tigerShroffParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.frameWrapper1,
+.profileBackgroundParent,
+.tigerShroffParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.profileBackgroundParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.statusIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.statusIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.frameDiv {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.frameDiv,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  width: 307px;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-22);
+}
+.frameParent {
+  align-self: stretch;
+  box-shadow: 0 0 2px #dadada;
+  background-color: var(--gray-scale-white);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-11xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--text-1);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 975px) {
+  .searchBySalesProductsAttWrapper {
+    display: none;
+  }
+  .stockholmIconsGeneralSeParent {
+    width: 66px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .searchBySales {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tigerShroffParent {
+    display: none;
+  }
+  .frameGroup {
+    gap: var(--gap-6xl);
+  }
+}

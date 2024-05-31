@@ -1,0 +1,31 @@
+.breadcrumbsParent,
+.consumerShoppingCart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadcrumbsParent {
+  align-self: stretch;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.consumerShoppingCart {
+  width: 100%;
+  position: relative;
+  background-color: var(--gray-scale-white);
+  overflow: hidden;
+  gap: var(--gap-23xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .breadcrumbsParent {
+    gap: var(--gap-xl);
+  }
+  .consumerShoppingCart {
+    gap: var(--gap-2xl);
+  }
+}

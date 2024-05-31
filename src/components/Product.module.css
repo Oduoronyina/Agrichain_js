@@ -1,0 +1,30 @@
+.imageIcon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.greenCapsicum {
+  position: relative;
+  line-height: 150%;
+}
+.greenCapsicumWrapper,
+.product {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.greenCapsicumWrapper {
+  flex-direction: column;
+  padding: var(--padding-19xl) 0 0;
+}
+.product {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  min-width: 166px;
+  text-align: left;
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--gray-scale-gray-900);
+  font-family: var(--body-small-body-small-400);
+}

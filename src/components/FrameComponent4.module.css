@@ -1,0 +1,199 @@
+.menuIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashbboard {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 88px;
+  white-space: nowrap;
+}
+.dashbboardWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.dashbboardWrapper,
+.searchBar,
+.searchInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchInput {
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.searchBar {
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+}
+.stockholmIconsGeneralSe {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.searchBySales {
+  position: relative;
+  white-space: nowrap;
+}
+.searchBySalesProductsAttWrapper,
+.searchField {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchBySalesProductsAttWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.searchField {
+  width: 302px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xs);
+  color: var(--text3);
+}
+.frameChild {
+  width: 46px;
+  height: 46px;
+  position: relative;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.avatarIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.tigerShroff {
+  text-decoration: none;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.id {
+  font-weight: 500;
+}
+.span {
+  font-weight: 600;
+}
+.id1234567 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--text3);
+  display: inline-block;
+  min-width: 68px;
+  white-space: nowrap;
+}
+.tigerShroffParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.avatarParent,
+.frameContainer,
+.tigerShroffParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.avatarParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.frameItem {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameGroup {
+  justify-content: flex-start;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.frameGroup {
+  flex: 1;
+  gap: var(--gap-9xl);
+}
+.frameGroup,
+.frameParent,
+.searchBarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  width: 307px;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-22);
+}
+.searchBarParent {
+  align-self: stretch;
+  box-shadow: 0 0 2px #dadada;
+  background-color: var(--gray-scale-white);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-11xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--text-1);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 725px) {
+  .searchBySales,
+  .searchBySalesProductsAttWrapper {
+    display: none;
+  }
+  .searchField {
+    width: 66px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tigerShroffParent {
+    display: none;
+  }
+  .frameParent {
+    gap: var(--gap-6xl);
+  }
+}

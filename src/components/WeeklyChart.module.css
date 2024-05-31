@@ -1,0 +1,878 @@
+.weeklyShipmentsChart {
+  text-decoration: none;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+}
+.chartTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.thisWeek {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 57px;
+}
+.thisWeekWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.emptyXAxisLabel {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chartTitleParent,
+.chartXAxis {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.chartXAxis {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-xs);
+  color: var(--black);
+}
+.chartTitleParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.k {
+  position: relative;
+  letter-spacing: 0.1px;
+  display: inline-block;
+  min-width: 19px;
+}
+.dividerGraphHorizontal {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.chartElements,
+.chartYAxis,
+.yAxisDividerTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.yAxisDividerTop {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 376px;
+}
+.chartElements,
+.chartYAxis {
+  align-self: stretch;
+}
+.chartYAxis {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-3xs);
+  color: var(--text3);
+}
+.chartElements {
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.k1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  display: inline-block;
+  min-width: 19px;
+}
+.dividerGraphHorizontal1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kParent,
+.yAxisDividerBottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.yAxisDividerBottom {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 376px;
+}
+.kParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.sheetIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.pointerValue {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 38px;
+  z-index: 1;
+}
+.sheetParent {
+  height: 37px;
+  width: 78px;
+  position: relative;
+}
+.yAxisLabelBottomInner {
+  width: 354px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--simblue);
+}
+.k2,
+.k3,
+.yAxisGrid1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  display: inline-block;
+  min-width: 19px;
+}
+.yAxisGrid1 {
+  min-width: 6px;
+}
+.yAxisGridLabels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.dividerGraphHorizontal2,
+.pointerAndCursorChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 578px;
+  height: 1px;
+}
+.pointerAndCursorChild {
+  width: 15px;
+  height: 15px;
+  z-index: 2;
+}
+.cursorPointingHand {
+  position: absolute;
+  top: 7px;
+  left: 6px;
+  width: 16px;
+  height: 16px;
+  z-index: 3;
+}
+.pointerAndCursor {
+  position: absolute;
+  top: 0;
+  left: 394px;
+  width: 22px;
+  height: 23px;
+}
+.dividerGraphHorizontalParent {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+}
+.dividerGraphHorizontal3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.dividerGraphHorizontal4,
+.frameChild {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.dividerGraphHorizontal4 {
+  align-self: stretch;
+  position: relative;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 var(--padding-2xs);
+  position: relative;
+  gap: var(--gap-33xl);
+}
+.yAxisGrid,
+.yAxisGridInner,
+.yAxisLabelBottom {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.yAxisGridInner {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 376px;
+}
+.yAxisGrid,
+.yAxisLabelBottom {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.yAxisLabelBottom {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xs-5);
+}
+.abuja {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 26px;
+}
+.locationChartBarValues,
+.locationChartBars {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationChartBarValues {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+}
+.locationChartBars {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.lagos {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 26px;
+}
+.lagosWrapper,
+.locationChartBars1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lagosWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+}
+.locationChartBars1 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.lagos1 {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 26px;
+}
+.lagosContainer,
+.locationChartBars2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lagosContainer {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+}
+.locationChartBars2 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.accra {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 26px;
+}
+.accraWrapper,
+.locationChartBars3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accraWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+}
+.locationChartBars3 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.bali {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 17px;
+}
+.baliWrapper,
+.locationChartBars4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.baliWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+}
+.locationChartBars4 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.greece {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 33px;
+}
+.lastLocation {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-aliceblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs);
+  color: var(--simblue);
+}
+.milan {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 29px;
+}
+.locationChartBars5,
+.milanWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.milanWrapper {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+}
+.locationChartBars5 {
+  width: 29px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.usa {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 20px;
+}
+.locationChartBars6,
+.usaWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usaWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-scale-white);
+  flex-direction: row;
+}
+.locationChartBars6 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.locationChart {
+  width: 578px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  color: var(--text-1);
+}
+.chartElementsParent,
+.chartYAxisBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.chartYAxisBottom {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-3xs);
+  color: var(--text3);
+}
+.chartElementsParent {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--gray-scale-white);
+  align-items: flex-start;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+}
+.deliveries {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 64px;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.progressDotOne {
+  width: 4px;
+  height: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray-scale-white);
+  z-index: 2;
+}
+.progressDotsContainer {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inProgressCircle,
+.progressDotTwo {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: var(--gray-scale-white);
+  z-index: 2;
+}
+.progressDotTwo {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 30px;
+  left: 33px;
+}
+.inProgressCircle {
+  position: relative;
+}
+.inProgressContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 var(--padding-6xl);
+}
+.span {
+  font-size: var(--body-large-body-large-500-size);
+}
+.delayedLabel {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.delayedCircle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.delayedCount {
+  width: 4px;
+  height: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--gray-scale-white);
+  z-index: 2;
+}
+.delayedContainer,
+.frameContainer,
+.progressIndicators {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.frameContainer,
+.progressIndicators {
+  align-items: flex-start;
+  gap: var(--gap-38xl);
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-32xl);
+  min-width: 117px;
+}
+.deliveryCircles {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-salmon);
+}
+.statusCircles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.deliveryCounts,
+.ontime {
+  position: relative;
+  font-weight: 500;
+}
+.ontime {
+  flex: 1;
+  text-transform: capitalize;
+}
+.deliveryCounts {
+  letter-spacing: 0.01em;
+  text-align: center;
+  display: inline-block;
+  min-width: 24px;
+}
+.statusCirclesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frameInner {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-cornsilk);
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.div,
+.inProgress {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.inProgress {
+  line-height: 15px;
+  text-transform: capitalize;
+  min-width: 60px;
+}
+.div {
+  letter-spacing: 0.01em;
+  text-align: center;
+  min-width: 24px;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid-5);
+}
+.ellipseDiv {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-100);
+}
+.ellipseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.delayed,
+.div1 {
+  position: relative;
+  font-weight: 500;
+}
+.delayed {
+  flex: 1;
+  text-transform: capitalize;
+}
+.div1 {
+  letter-spacing: 0.01em;
+  text-align: center;
+  display: inline-block;
+  min-width: 24px;
+}
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.deliveryElements,
+.deliveryStatus1,
+.deliveryVisualization,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.deliveryStatus1 {
+  width: 127px;
+  flex-direction: column;
+  padding: var(--padding-35xl) 0 0;
+  box-sizing: border-box;
+  min-width: 127px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+}
+.deliveryElements,
+.deliveryVisualization {
+  align-self: stretch;
+}
+.deliveryVisualization {
+  flex-direction: row;
+  gap: var(--gap-31xl);
+  text-align: center;
+  font-size: var(--font-size-15xl);
+}
+.deliveryElements {
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.downloadStatistics {
+  position: relative;
+  font-size: var(--font-size-xs);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--header1);
+  color: var(--simblue);
+  text-align: center;
+  display: inline-block;
+  min-width: 107px;
+}
+.downloadButtonContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-21xl);
+  background-color: var(--color-limegreen-500);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.downloadButtonContainer:hover {
+  background-color: var(--color-limegreen-400);
+}
+.downloadButtonContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.chartContainer,
+.deliveryStatus,
+.weeklyChart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.deliveryStatus {
+  width: 417px;
+  border-radius: var(--br-xl);
+  background-color: var(--gray-scale-white);
+  flex-direction: column;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  min-width: 417px;
+}
+.chartContainer,
+.weeklyChart {
+  flex-direction: row;
+}
+.chartContainer {
+  flex: 1;
+  gap: var(--gap-11xl);
+}
+.weeklyChart {
+  align-self: stretch;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-1);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 975px) {
+  .deliveryStatus {
+    flex: 1;
+  }
+  .chartContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .yAxisDividerTop {
+    min-width: 100%;
+  }
+  .chartYAxis {
+    flex-wrap: wrap;
+  }
+  .yAxisDividerBottom {
+    min-width: 100%;
+  }
+  .kParent {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: var(--gap-7xl);
+  }
+  .yAxisGridInner {
+    min-width: 100%;
+  }
+  .locationChart,
+  .yAxisGrid {
+    flex-wrap: wrap;
+  }
+  .chartElementsParent {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .deliveryStatus {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chartTitleParent {
+    flex-wrap: wrap;
+  }
+  .chartElementsParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .deliveryStatus1 {
+    flex: 1;
+  }
+  .deliveryVisualization {
+    flex-wrap: wrap;
+    gap: var(--gap-6xl);
+  }
+  .deliveryStatus {
+    gap: var(--gap-6xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

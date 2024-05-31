@@ -1,0 +1,392 @@
+.freshHealthy {
+  align-self: stretch;
+  position: relative;
+  line-height: 58px;
+  font-weight: 600;
+}
+.discountShape {
+  height: 65px;
+  width: 2px;
+  position: relative;
+  background-color: var(--branding-success-bright);
+}
+.off,
+.saleUpTo {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.saleUpTo {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  min-width: 101px;
+}
+.off {
+  font-weight: 600;
+  min-width: 84px;
+}
+.offWrapper,
+.saleUpToParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.offWrapper {
+  border-radius: var(--br-8xs);
+  background-color: var(--branding-warning);
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  white-space: nowrap;
+}
+.saleUpToParent {
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.freeShippingOn {
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  line-height: 150%;
+  color: var(--color-gray-500);
+}
+.bannerDiscount,
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.bannerDiscount {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-size: var(--body-xl-body-xl-600-size);
+}
+.shopNow {
+  position: relative;
+  font-size: var(--body-medium-body-medium-500-size);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: var(--body-small-body-small-400);
+  color: var(--branding-success);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+}
+.groupIcon {
+  width: 15px;
+  height: 12px;
+  position: relative;
+}
+.shopNowIcon {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.button,
+.freshHealthyOrganicFoodParent,
+.shopNowIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-21xl);
+  background-color: var(--gray-scale-white);
+  border-radius: var(--br-34xl);
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.freshHealthyOrganicFoodParent {
+  width: 596px;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.bannarBig,
+.bgIcon {
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+}
+.bannarBig {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-136xl) var(--padding-41xl);
+  box-sizing: border-box;
+  background-image: url(/public/bannar-big@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 600px;
+}
+.bgIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.summerSale1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 100px;
+}
+.off1 {
+  position: relative;
+  font-size: var(--heading-05-heading-05-600-size);
+  line-height: 120%;
+  font-weight: 600;
+}
+.summerSale {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.onlyFruit {
+  position: relative;
+  line-height: 150%;
+  color: var(--gray-scale-gray-600);
+}
+.saleInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.shopNow1 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 81px;
+}
+.groupIcon1 {
+  height: 12px;
+  width: 15px;
+  position: relative;
+}
+.button1 {
+  border-radius: var(--br-24xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--branding-success);
+}
+.bannar,
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.info {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  z-index: 1;
+}
+.bannar {
+  align-self: stretch;
+  height: 288px;
+  flex-direction: row;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.bgIcon1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bestDeal {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 74px;
+}
+.bestDealWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.specialProductsDeal {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-05-heading-05-600-size);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.info2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.shopNow2 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 81px;
+}
+.groupIcon2 {
+  width: 15px;
+  height: 12px;
+  position: relative;
+}
+.smallShopIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.button2,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button2 {
+  border-radius: var(--br-24xl);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.buttonWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--branding-success);
+}
+.info1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  z-index: 1;
+}
+.bannar1,
+.bigBanner,
+.info1,
+.smallBanner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bannar1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-48xl) var(--padding-21xl) var(--padding-49xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  color: var(--gray-scale-white);
+}
+.bigBanner,
+.smallBanner {
+  gap: var(--gap-5xl);
+}
+.smallBanner {
+  width: 423px;
+  flex-direction: column;
+  min-width: 423px;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--gray-scale-gray-900);
+}
+.bigBanner {
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--gray-scale-white);
+  font-family: var(--body-small-body-small-400);
+}
+@media screen and (max-width: 1325px) {
+  .bannarBig {
+    min-height: auto;
+  }
+  .smallBanner {
+    flex: 1;
+  }
+  .bigBanner {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .freshHealthy {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .bannarBig {
+    padding: var(--padding-82xl) var(--padding-11xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .off1,
+  .specialProductsDeal {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .smallBanner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .freshHealthy {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .saleUpTo {
+    font-size: var(--body-medium-body-medium-500-size);
+    line-height: 24px;
+  }
+  .off1,
+  .specialProductsDeal {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .info1 {
+    gap: var(--gap-base);
+  }
+}

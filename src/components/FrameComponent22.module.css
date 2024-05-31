@@ -1,0 +1,287 @@
+.rightSidebarChild {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.rightSidebar {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-mid);
+}
+.agrichain {
+  text-decoration: none;
+  position: relative;
+  font-weight: 900;
+  color: inherit;
+}
+.brandName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl);
+  font-size: var(--font-size-17xl);
+  color: var(--gren-gray-scale-900);
+}
+.mombasaFarm {
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  font-weight: 900;
+  font-family: var(--header1);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 96px;
+}
+.farmName,
+.farmNameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.farmName {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-4xl);
+  background-color: var(--simorange);
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.farmName:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.farmNameWrapper {
+  padding: 0 var(--padding-42xl);
+}
+.iconlyboldcategory {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 24px;
+}
+.dashboard {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 67px;
+}
+.metricIconsRow,
+.metricIconsRowWrapper,
+.metricLabels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.metricLabels {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.metricIconsRow,
+.metricIconsRowWrapper {
+  flex-direction: row;
+}
+.metricIconsRow {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--simblue);
+  padding: var(--padding-mid);
+  gap: var(--gap-4xs);
+}
+.metricIconsRowWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-mini);
+  color: var(--gray-scale-white);
+}
+.iconlyboldgraph {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 24px;
+}
+.quotations {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.frameWrapper,
+.iconlyboldgraphParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconlyboldgraphParent {
+  flex: 1;
+  border-radius: var(--br-base);
+  padding: var(--padding-mid);
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  width: 221px;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.iconlyboldbuy {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 24px;
+}
+.shipments {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.frameContainer,
+.iconlyboldbuyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconlyboldbuyParent {
+  flex: 1;
+  border-radius: var(--br-base);
+  padding: var(--padding-mid);
+  gap: var(--gap-3xs);
+}
+.frameContainer {
+  width: 221px;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.mditruckFastOutlineIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dispatches {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.frameDiv,
+.mditruckFastOutlineParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mditruckFastOutlineParent {
+  flex: 1;
+  border-radius: var(--br-base);
+  padding: var(--padding-mid);
+  gap: var(--gap-3xs);
+}
+.frameDiv {
+  width: 221px;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.stockholmIconsShoppingS {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 24px;
+}
+.storeManageent {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.storeManageentWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.stockholmIconsShoppingSParent {
+  flex: 1;
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mid);
+  gap: var(--gap-3xs);
+  opacity: 0.2;
+}
+.frameWrapper1,
+.rightSidebarParent {
+  width: 221px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.rightSidebarParent {
+  width: 265px;
+  background-color: var(--gray-scale-white);
+  flex-direction: column;
+  padding: 0 0 var(--padding-709xl);
+  gap: var(--gap-sm-4);
+  text-align: left;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--text-22);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 1000px) {
+  .rightSidebarParent {
+    padding-bottom: var(--padding-454xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .agrichain {
+    font-size: var(--font-size-10xl);
+  }
+  .rightSidebarParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 725px) {
+  .rightSidebarParent {
+    padding-bottom: var(--padding-288xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .agrichain {
+    font-size: var(--font-size-3xl);
+  }
+  .brandName,
+  .farmNameWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
